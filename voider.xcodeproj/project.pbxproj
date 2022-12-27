@@ -17,6 +17,7 @@
 		B65723F8295B7F7D00BBB360 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65723F7295B7F7D00BBB360 /* View.swift */; };
 		B65723FA295B80E300BBB360 /* ViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65723F9295B80E300BBB360 /* ViewControllerProtocol.swift */; };
 		B65723FC295B810F00BBB360 /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65723FB295B810F00BBB360 /* ViewModelProtocol.swift */; };
+		B6572400295B82A100BBB360 /* ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65723FF295B82A100BBB360 /* ViewProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B65723F7295B7F7D00BBB360 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		B65723F9295B80E300BBB360 /* ViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerProtocol.swift; sourceTree = "<group>"; };
 		B65723FB295B810F00BBB360 /* ViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
+		B65723FF295B82A100BBB360 /* ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				B65723F5295B7F6A00BBB360 /* Bindable.swift */,
+				B65723FF295B82A100BBB360 /* ViewProtocol.swift */,
 				B65723F9295B80E300BBB360 /* ViewControllerProtocol.swift */,
 				B65723FB295B810F00BBB360 /* ViewModelProtocol.swift */,
 				B65723F3295B7F5A00BBB360 /* ViewInput.swift */,
@@ -186,6 +189,7 @@
 				B65723F6295B7F6A00BBB360 /* Bindable.swift in Sources */,
 				B65723F4295B7F5A00BBB360 /* ViewInput.swift in Sources */,
 				B65723F2295B7F3800BBB360 /* ViewModel.swift in Sources */,
+				B6572400295B82A100BBB360 /* ViewProtocol.swift in Sources */,
 				B65723F8295B7F7D00BBB360 /* View.swift in Sources */,
 				B65723DE295B7C0B00BBB360 /* SceneDelegate.swift in Sources */,
 				B65723FC295B810F00BBB360 /* ViewModelProtocol.swift in Sources */,

@@ -5,11 +5,12 @@
 //  Created by Misha Causur on 28.12.2022.
 //
 
-import UIKit.UIViewController
+import class UIKit.UIViewController
 
-class ViewController<viewModel: ViewModelProtocol, view: View>: UIViewController, ViewControllerProtocol {
+class ViewController<viewModel: ViewModelProtocol, view: View>: UIViewController,
+                                                                ViewControllerProtocol {
     
-    typealias Bindings = viewModel.Bindings 
+    typealias Bindings = viewModel.Bindings
 }
 
 
