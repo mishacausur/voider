@@ -7,15 +7,11 @@
 
 import class UIKit.UIViewController
 
-class ViewController<viewModel: ViewModelProtocol, view: View>: UIViewController,
+class ViewController<viewModel: ViewModelProtocol, view: ViewProtocol>: UIViewController,
                                                                 ViewControllerProtocol {
     
     typealias Bindings = viewModel.Bindings
+    func bind(to viewModel: viewModel) {
+        assertionFailure("\(#function) method in ViewController is not implemented")
+    }
 }
-
-
-
-
-
-
-

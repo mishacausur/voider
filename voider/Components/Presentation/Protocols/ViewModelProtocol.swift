@@ -6,6 +6,14 @@
 //
 
 protocol ViewModelProtocol {
-    associatedtype Bindings
+    
+    associatedtype Input = Void
+    associatedtype Bindings = Void
+    associatedtype Services = Void
+    
+    static func create(
+        input: Input,
+        bindings: Bindings,
+        services: Services
+    ) -> Self
 }
-

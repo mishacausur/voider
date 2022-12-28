@@ -5,7 +5,14 @@
 //  Created by Misha Causur on 28.12.2022.
 //
 
-class ViewModel: ViewModelProtocol {
+struct ViewModel {}
+
+extension ViewModel: ViewModelProtocol {
+    
     struct Bindings {
+    }
+    
+    static func create(input: (), bindings: Bindings, services: ()) -> ViewModel {
+        .init()
     }
 }
